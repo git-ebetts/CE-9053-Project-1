@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Fri Jun 05 2015 20:28:30 GMT+0000 (UTC)
+// Generated on Wed Jun 24 2015 05:51:34 GMT-0400 (EDT)
 
 module.exports = function(config) {
   config.set({
@@ -15,8 +15,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'vendor/lodash/lodash.js',
-      'app/**/*.js',
+        'vendor/lodash/lodash.js',
+      'spec/app/**/*.js',
       'spec/app/my_world_service_spec.js'
     ],
 
@@ -63,5 +63,5 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false
-  });
-};
+  })
+}
